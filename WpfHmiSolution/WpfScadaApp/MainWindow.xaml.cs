@@ -16,7 +16,7 @@ namespace WpfScadaApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string serverIpNum = "192.168.200.102";
+        private string serverIpNum = "192.168.200.105";
         private string subscribeStr = "machine01";
         private MqttClient client;          // MQTT Subscribe / Publish 객체
         private string connectionString;    // SQL Server 연결 문자열
