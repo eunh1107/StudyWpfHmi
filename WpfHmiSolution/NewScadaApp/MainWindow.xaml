@@ -30,7 +30,7 @@
         <!--Step1 기본 컨트롤 구성 -->
         <Label Content="Simple SCADA" Canvas.Left="31" Canvas.Top="31" Foreground="Yellow" FontSize="50" FontFamily="Arial Black" />
         <Label x:Name="LblStatus" Canvas.Left="31" Canvas.Top="100" Content="Sample" Foreground="White" />
-        <Button x:Name="BtnMonitoring" Canvas.Left="31" Canvas.Top="140" Width="120" Height="30" Content="Start Monitoring" Click="BtnMonitoring_Click" />
+        <Button x:Name="BtnMonitoring" Canvas.Left="470" Canvas.Top="46" Width="120" Height="30" Content="Start Monitoring" Click="BtnMonitoring_Click" />
 
         <!--Step2 사용자컨트롤 사용-->
         <local:UcPipe Height="160" Canvas.Top="371" Width="128"/>
